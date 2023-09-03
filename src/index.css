@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+
+:root {
+  --Light-red: hsl(0, 100%, 67%);
+  --light-light-red: hsla(0, 100%, 67%, 0.1);
+  --Orangey-yellow: hsl(39, 100%, 56%);
+  --light-orangey-yellow: hsla(39, 100%, 56%, 0.1);
+  --Green-teal: hsl(166, 100%, 37%);
+  --light-green-teal: hsla(166, 100%, 37%, 0.1);
+  --Cobalt-blue: hsl(234, 85%, 45%);
+  --light-cobalt-blue: hsla(234, 85%, 45%, 0.1);
+  --Light-slate-blue: hsl(252, 100%, 67%);
+  --Light-royal-blue: hsl(241, 81%, 54%);
+  --Violet-blue: hsla(256, 72%, 46%, 1);
+  --Persian-blue: hsla(241, 72%, 46%, 0);
+
+  
+  --White: hsl(0, 0%, 100%);
+  --light-white: hsla(0, 0%, 100%, 0.3);
+  --Pale-blue: hsl(221, 100%, 96%);
+  --Light-lavender: hsl(241, 100%, 89%);
+  --Dark-gray-blue: hsl(224, 30%, 27%);
+}
+
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+
+body {
+  font-family: "Hanken Grotesk", serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.Screen {
+  border-radius: 2rem;
+  width: 500px;
+  background-color: var(--White);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 4px 10px;
+  display: flex;
+}
+
+.result {
+  width: 50%;
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+  background: linear-gradient(var(--Light-slate-blue), var(--Light-royal-blue));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.summary {
+  width: 50%;
+  padding: 1.5rem 2rem;
+}
+
+
+.circle {
+  background: linear-gradient(
+    to bottom,
+    var(--Violet-blue),
+    var(--Persian-blue)
+  );
+  width: 8.75rem;
+  height: 8.75rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.0rem;
+}
+
+
+.container-summary {
+  font-size: 0.7rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+}
+
+.title-result {
+  color: var(--light-white);
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+
+.numeric-score {
+  color: var(--Light-lavender);
+  font-size: 1.5rem;
+}
+
+
+.max-score {
+  color: var(--light-white);
+  font-size: 0.7rem;
+}
+
+
+.score {
+  color: var(--Light-lavender);
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+.score-comment {
+  
+}
+
+
+.title-summary {
+  
+}
+
+
+.category {
+  }
+
+.btn-summary {
+  
+}
+
+.btn-summary:hover {
+  }
+
+.icon-text {
+  }
+
+
+  .btn-summary {
+  }
+
+
+
