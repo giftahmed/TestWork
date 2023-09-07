@@ -34,6 +34,7 @@ const Screen = () => {
             <div key={index} className="category">
               <div className="icon-text">
                 <img src={el.icon} alt={el.category} />
+                
                 <span className={el.category}>{el.category}</span>
               </div>
               <div className="value">
